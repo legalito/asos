@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { Component } from 'react'
 import styles from './navbar.module.css'
 
@@ -11,12 +12,11 @@ export class navbar extends Component {
                 <div className={styles.navbar}>
                     <div>
                         <p>Accueil</p>
-                        <p>Accueil</p>
-                        <p>Accueil</p>
+                        <p>Shop</p>
                         <p>Accueil</p>
                         <div>
-                            <button>Inscription</button>
-                            <button>connexion</button>
+                            <Link className={styles.Link} href="/inscription"><button>Inscription</button></Link>
+                            <Link className={styles.Link} href="/connexion"><button>Connexion</button></Link>
                         </div>
                     </div>
                 </div>

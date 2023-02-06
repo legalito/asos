@@ -1,23 +1,22 @@
 .navbar{
-    padding: 3rem;
-    background-image: url('../public/man-593333.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    padding: 2rem;
+    height: 100px;
+    background-color: #27352a;
 }
 .navbar >div{
     display: flex;
     flex-direction: row;   
     justify-content: space-around;
     align-items: center;
-
 }
-.navbar > div >div >button{
+.Link >button{
     margin: 0px 10px;
     border-radius: 20px;
     border: 0px;
     padding: 1rem;
 }
-.navbar > p {
+.navbar >div> p {
     font-size: 18px;
+    color: white;
+    font-weight: 600;
 }

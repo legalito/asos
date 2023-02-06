@@ -2,3 +2,14 @@
   background-color: black;
   width: 100%;
 }
+.sectionOne{
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+  padding: 50px 0px;
+}
+.sectionOne > div{
+  padding: 4rem;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
