@@ -1,4 +1,4 @@
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 import Link from 'next/link'
 import React, { Component } from 'react'
 
@@ -19,7 +19,7 @@ export class navbar extends Component {
               <div>
                 <Link className={styles.Link} href="/inscription"><button>Inscription</button></Link>
                 <Link className={styles.Link} href="/connexion"><button>Connexion</button></Link>
-                <Link href="/panier"><ShoppingCartIcon /></Link>
+                <Link href="/panier"></Link>
               </div>
             </div>
           </div>
