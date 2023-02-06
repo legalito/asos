@@ -1,0 +1,31 @@
+.footer {
+    background-color: #27352a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .footerText {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .footerNav {
+    display: flex;
+  }
+  
+  .footerLink {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+  }
