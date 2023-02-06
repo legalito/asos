@@ -50,36 +50,4 @@
   width: 100%;
   object-fit: cover;
 }
-.sectionOne > div > h2{
-  color: #27352a;
-  padding: 3rem;
-}
-.articleList{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
-.article{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.article > p{
-  color: #27352a;
-  font-size: 20px;
-  font-weight: 700;
-}
-.article > div{
-  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;      
-  height: 350px;
-  width: 200px;
-  overflow: hidden;
-  border-radius:20px ;
-}
-.article > div > img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
