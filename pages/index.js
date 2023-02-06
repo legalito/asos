@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
+import RecipeReviewCard from '@/component/card/card2'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
           <Navbar/>
           <div className={styles.sectionOne}>
             <div>
-              
+              <RecipeReviewCard/>
             </div>
           </div>
       </main>
