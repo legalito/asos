@@ -16,7 +16,7 @@ export class index extends Component {
         </div>
         <div className={styles.cardDisplay}>
           <div className={styles.card}>
-            <Card/>
+            <Card title={"hello"}/>
             <Card/>
             <Card/>
             <Card/>
