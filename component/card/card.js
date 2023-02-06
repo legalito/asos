@@ -27,4 +27,4 @@ const card = (props) => {
                 )
 }
 
-export default Card
+export default card
