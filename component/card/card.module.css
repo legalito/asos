@@ -29,25 +29,26 @@
 .card__content{
         display: flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: #27352a;
         width: 10vw;
         height: 15vw ;
         color:black;
+        text-align: center;
 }
 
 #card__title{
-        font-size: large;
+        font-size: 3vw;
         font-weight: bold;
 
 }
 
 #card__text{
-        font-size: small;
+        font-size: 2vh;
         
 }
 
 #card__price{
-        font-size: small;
+        font-size: 2vh;
         font-weight: bold;
         color: red;
 }
@@ -67,5 +68,11 @@
 }
 
 #btn{
-        
+       margin-top: 2vh;
+        width: 7vw;
+        height: 3vw; 
+        background-color: #fbfffc;
+        color:#27352a ;
+        font-size: 2vh;
+        font-weight:bold ;
 }

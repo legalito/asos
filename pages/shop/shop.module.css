@@ -10,14 +10,14 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        background-color: blue;
+        background-color:#759d7d;
         background-repeat: repeat;
 }
 
 .cardDisplay{
         width: 75%;
         height: 100% ;
-        background-color: blueviolet;
+        background-color:#fbfffc;
         background-repeat: repeat;
 }
 
