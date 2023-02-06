@@ -14,7 +14,7 @@ export class navbar extends Component {
           <div className={styles.navbar}>
             <div>
               <Link href="/">Accueil</Link>
-              <Link href="/shop">Shop</Link>
+              <Link href="./shop">Shop</Link>
 
               <div>
                 <Link className={styles.Link} href="/inscription"><button>Inscription</button></Link>
