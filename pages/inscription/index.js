@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styles from './inscription.module.css'
 import Navbar from '@/component/navbar/navbar'
-import footer from '@/component/footer/footer'
+import Footer from '@/component/footer/footer'
 
 
 
@@ -10,6 +10,7 @@ export class index extends Component {
     return (
       <>
       <div className={styles.containerLog}>
+        <Navbar />
       <div className={styles.singupWrapper}>
         <h1>inscription</h1>
         <form className={styles.form}>
@@ -34,8 +35,9 @@ export class index extends Component {
             </div>
         </form>
         </div>
-      </div>
         
+      </div>
+      <Footer/>
       </>
     )
   }
