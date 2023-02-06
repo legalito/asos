@@ -15,15 +15,19 @@ export class index extends Component {
         <form className={styles.form}>
             <label>
             <p>email</p>
-            <input type="email" />
+            <input type="text" placeholder="email" />
             </label>
             <label>
             <p>Username</p>
-            <input type="text" />
+            <input type="text" placeholder="username" />
             </label>
             <label>
             <p>Password</p>
-            <input type="password" />
+            <input type="text" placeholder="username" />
+            </label>
+            <label>
+            <p>Confirm Password</p>
+            <input type="text" placeholder= "confirm password" />
             </label>
             <div>
             <button type="login">Login</button>
