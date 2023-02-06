@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import styles from './navbar.module.css'
 
 
@@ -13,7 +14,7 @@ export class navbar extends Component {
                         <p>Accueil</p>
                         <p>Accueil</p>
                         <p>Accueil</p>
-                        <p>Accueil</p>
+                        <p>panier</p>
                         <div>
                             <button>Inscription</button>
                             <button>connexion</button>
