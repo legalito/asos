@@ -12,7 +12,7 @@ export class index extends Component {
       <div className={styles.containerLog}>
         <Navbar />
       <div className={styles.singupWrapper}>
-        <h1>inscription</h1>
+        <h1>inscription</h1><div className={styles.loginWrapper}>
         <form className={styles.form}>
             <label>
             <p>email</p>
@@ -35,7 +35,7 @@ export class index extends Component {
             </div>
         </form>
         </div>
-        
+      </div>
       </div>
       <Footer/>
       </>

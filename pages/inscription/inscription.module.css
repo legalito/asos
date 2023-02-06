@@ -1,5 +1,5 @@
 .containerLog{
-    background-color: white;
+    background-color: rgb(48, 47, 47);
     height: 100vh;
     width: 100%;
 }
@@ -8,9 +8,8 @@
     margin-bottom: 3vw;
     text-align: center;
     font-size: 3rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
-    
 
 .form{
     display: flex;
@@ -19,6 +18,17 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    color: black;
+    color: rgb(227, 227, 227);
+    margin-bottom: 5vw;
+}
+
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(123, 115, 115);
     margin-bottom: 5vw;
 }
