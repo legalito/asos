@@ -3,6 +3,14 @@
     height: 100vh;
     width: 100%;
 }
-.form >p{
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginWrapper > h1{
+    color: black;
+}
+.label >p{
     color: black;
 }
