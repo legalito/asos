@@ -27,4 +27,4 @@ export class Card extends Component {
         }
 }
 
-export default card
+export default Card
