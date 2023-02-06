@@ -4,7 +4,7 @@ import styles from './card.module.css'
 
 
 export class Card extends Component {
-        render() {
+        render(props) {
                 return (
                         <>
                                 <div className={styles.card}>

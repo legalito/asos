@@ -1,4 +1,6 @@
 .footer {
+    position: fixed;
+    bottom: 0;
     background-color: #27352a;
     width: 100%;
     display: flex;

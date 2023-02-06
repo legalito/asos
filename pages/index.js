@@ -7,6 +7,32 @@ import Footer from '@/component/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const articles = [
+    {
+      name: "Chaussure",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "Vêtements",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    }
+  ];
+  const Article = ({name, Link }) => (
+    <div className={styles.article}>
+      <p>{name}</p>
+      <div>
+        <img src={Link}/>
+      </div>
+    </div>
+  );
   return (
     <>
       <Head>
@@ -19,6 +45,16 @@ export default function Home() {
           <Navbar/>
           <div className={styles.sectionOne}>
             <div>
+              <h2>Sélectionner votre catégorie</h2>              
+                <div className={styles.articleList}>
+                  {articles.map(article => (
+                    <Article
+                      key={article.id}
+                      name={article.name}
+                      Link={article.Link}
+                    />
+                  ))}
+                </div>
               
             </div>
           </div>
