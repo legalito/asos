@@ -3,7 +3,7 @@ import styles from './card.module.css'
 
 
 
-export class card extends Component {
+export class Card extends Component {
         render() {
                 return (
                         <>
