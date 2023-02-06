@@ -22,7 +22,6 @@ export default function Home() {
           <div className={styles.sectionOne}>
             <div>
               <RecipeReviewCard/>
-              <Card/>
             </div>
           </div>
       </main>
