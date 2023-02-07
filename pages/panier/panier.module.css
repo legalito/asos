@@ -21,12 +21,22 @@
   display: flex;
 }
 
+.recap{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #759d7d;
+  font-size: 2vw;
+}
 
 .Footer{
 position: fixed;
 bottom: 0;
 width: 100%;
 }
+
 .articleList{
     display: flex;
     flex-direction: column;

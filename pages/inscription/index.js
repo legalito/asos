@@ -11,7 +11,6 @@ export class index extends Component {
     function submit (e){
       e.preventDefault();
       console.log("test")
-      
       axios.post('http://localhost:3000/user',{
         pseudo:"michel",
         password:"abionna",
