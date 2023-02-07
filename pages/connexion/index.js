@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styles from './connexion.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
+
 export class index extends Component {
   render() {
     return (
