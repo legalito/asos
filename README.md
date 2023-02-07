@@ -34,6 +34,12 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 - Quel protocole utiliser ? Comment authentier les instances les unes par rapport aux autrespour éviter les attaques de type Man in the middle et les usurpations ?
 - Comment authentier les utilisateurs d'une instance lorsqu'ilscommandent un produit provenant d'une autre instance ?
 
+# Nos solutions pour répondre au sujet 
+
+- Docker API et BDD replicas avec un communication entre instance via protocol ARP
+- Les API comm entre elle 
+- un container qui possède une table qui affiche toute les autres API
+- Site web hors docker hébergervia VERCEL
 
 
 
