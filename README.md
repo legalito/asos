@@ -1,6 +1,6 @@
-#**Hexa-Héron**#
+#**Hexa-Héron**
 
-##Bienvenue sur le site de Hexa-Héron,c'est un site de marketplace decentralisée , mettant en relation plusieur boutique sur cette meme plateforme.##
+##Bienvenue sur le site de Hexa-Héron,c'est un site de marketplace decentralisée , mettant en relation plusieur boutique sur cette meme plateforme.
 Pour realise cette fameuse marketplace, on a:
 
   - Créer une API
