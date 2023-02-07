@@ -4,19 +4,31 @@ Bienvenue sur le site Hexa-Héron, une Boutique des pret a porter et des accesso
 Pour realise cette fameuse site en market, on a:
 
 * Créé une API
+
 * Créé une base de données
 
+* Utilise :
+
+ - Next.js
+ - React
+ - Css
+ - Github
+
+
 * Install
+
   . Docker 
     - Creation de contenaire
+
 * Backend
 
  - Home
   . Search
-  . inscription
-  . connexion
-  . panier
+  . Inscription
+  . Connexion
+  . Panier
  - Shop
+
 * Livrables
 
 - Mise du code source sur github
@@ -31,8 +43,7 @@ Pour realise cette fameuse site en market, on a:
  . Abakar TIDJANI - B2 
  . Noa DROUINEAU - B1
  . Richard LESIEUR - B1
-
-
+ 
 
 
 
