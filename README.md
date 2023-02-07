@@ -33,10 +33,10 @@ L'idée serait de pouvoir créer un compte client, un compte commerçant et un c
 Pour la patie docker, nous avons réussi à mettre en place un reverse proxy et un loadbalancing avec les fichiers de configurations. L'idée final serait à mettre en place une base de données pour chaque boutique.
 
 # Réflexions attendues pour nos B3
-##Développement 
+## Développement 
 - Comment assurer la performance du système malgré son aspectdistribué en réseau 
 - Quelle architecture mettre en place pour permettre la symétrie desinstances les unes par rapport aux autres sans gouvernance centralisée ?
-##Cybersécurité 
+## Cybersécurité 
 - Comment sécuriser les nombreuses communications nécessaires 
 - Quel protocole utiliser ? Comment authentier les instances les unes par rapport aux autrespour éviter les attaques de type Man in the middle et les usurpations ?
 - Comment authentier les utilisateurs d'une instance lorsqu'ilscommandent un produit provenant d'une autre instance ?
