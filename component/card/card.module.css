@@ -1,78 +1,31 @@
-
 .card{
-        width:30vw;
-        height: 15vw ;
+        height: 200px;
+        width: 300px;
+        box-shadow: 0px 16px 15px 9px rgba(0,0,0,0.1);
+        border-radius: 20px;
 }
-
-.card__page{
-        width:30vw;
-        height: 15vw ;
+.cardpage{
         display: flex;
         flex-direction: row;
+        gap: 30px;
 }
-
-.card__img{
-        width: 15vw;
-        height: 15vw ;
-        background-color: blueviolet;
+.cardimg{
+        object-fit: cover;
 }
-
 #image{
-        width: 15vw;
-        height: 15vw ;
-        position: relative;
-        background-position: center; 
-        background-size: cover;  
-        
+        height: 200px;
+        width: fit-content;
 }
-
-.card__content{
+.cardcontent{
         display: flex;
         flex-direction: column;
-        background-color: #27352a;
-        width: 10vw;
-        height: 15vw ;
-        color:black;
-        text-align: center;
+        justify-content: space-around
 }
-
-#card__title{
-        font-size: 3vw;
-        font-weight: bold;
-
+.cardcontent > p,
+.cardcontent > h3 {
+        color: black;
 }
-
-#card__text{
-        font-size: 2vh;
-        
-}
-
-#card__price{
-        font-size: 2vh;
-        font-weight: bold;
-        color: red;
-}
-        
-.card__button{
-        width: 15vw;
-        height: 15vw ;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-}
-
-.card__button{
-        height: 15vw;
-        width: 5vw;
-}
-
-#btn{
-       margin-top: 2vh;
-        width: 7vw;
-        height: 3vw; 
-        background-color: #fbfffc;
-        color:#27352a ;
-        font-size: 1vw;
-        font-weight:bold ;
+.cardcontent > button {
+        background-color: black;
+        outline: none;
 }

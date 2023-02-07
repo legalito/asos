@@ -5,27 +5,50 @@ import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
 
 export default function index()  {
+
+ 
+ 
   const articles = [
     {
-      name: "Chaussure",
-      Link:"./sneakers.jpg"
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
     },
     {
-      name: "Vêtements",
-      Link:"./sneakers.jpg"
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
     },
     {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
     },
     {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
-    }
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
+    },
+    {
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
+    },
+    {
+      title: "Vêtements",
+      link:"../sneakers.jpg",
+      description:"lrorem",
+      price:"10"
+    },
   ];
-  
+
     return (
-      
+
       <div className={styles.content}>
         <Navbar/>
         <div className={styles.shop}>
@@ -37,8 +60,8 @@ export default function index()  {
           {articles.map(article => (
                     <Card
                       key={article.id}
-                      img={article.link}
-                      name={article.title}
+                      link={article.link}
+                      title={article.title}
                       description={article.description}
                       price={article.price}
                     />
@@ -49,5 +72,5 @@ export default function index()  {
         <Footer/>
       </div>
     )
-  
+
 }
