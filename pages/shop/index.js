@@ -16,12 +16,15 @@ export class index extends Component {
         </div>
         <div className={styles.cardDisplay}>
           <div className={styles.card}>
-            <Card title={"hello"}/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+          {articles.map(article => (
+                    <Card
+                      key={article.id}
+                      img={article.link}
+                      name={article.title}
+                      description={article.description}
+                      price={article.price}
+                    />
+                  ))}
           </div> 
         </div>
         </div>

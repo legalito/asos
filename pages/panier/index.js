@@ -12,11 +12,14 @@ export class panier extends Component {
           <div className={styles.panier}>
             <h1>Panier:</h1>
             <div className={styles.articleList}>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
+            {articles.map(article => (
+                    <Product
+                      key={article.id}
+                      img={article.img}
+                      name={article.name}
+                      price={article.price}
+                    />
+                  ))}
                 
                 </div>
             <div className={styles.recap}>
