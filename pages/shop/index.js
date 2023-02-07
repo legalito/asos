@@ -6,6 +6,34 @@ import Footer from '@/component/footer/footer'
 
 export class index extends Component {
   render() {
+    const articles = [
+      {
+        Link:"./sneakers.jpg",
+        description:'loremp',
+        title:"test",
+        price:"10",
+
+      },
+      {
+        Link:"./sneakers.jpg",
+        description:'loremp',
+        title:"test",
+        price:"10",
+
+      },
+      {
+        Link:"./sneakers.jpg",
+        description:'loremp',
+        title:"test",
+        price:"10",
+      },
+      {
+        Link:"./sneakers.jpg",
+        description:'loremp',
+        title:"test",
+        price:"10",
+      },
+    ];
     return (
       
       <div className={styles.content}>
@@ -16,12 +44,16 @@ export class index extends Component {
         </div>
         <div className={styles.cardDisplay}>
           <div className={styles.card}>
-            <Card title={"hello"}/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+          
+                  {articles.map(article => (
+                    <Card
+                      key={article.id}
+                      title={article.title}
+                      description={article.description}
+                      price={article.price}
+                    />
+                  ))}
+          
           </div> 
         </div>
         </div>
