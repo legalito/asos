@@ -41,7 +41,12 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 - un container qui possède une table qui affiche toute les autres API
 - Site web hors docker hébergervia VERCEL
 
-
+# Pour lancer le Projet :
+- Clone le lien git  
+- Telecharger NodeJS si cela n'est pas deja fais pour pouvoir run le projet: https://nodejs.org/en/download/
+- Les commande a effectuer depuis votre éditeur de code source pour pouvoir lancer le projet :
+  - npm i ou npm install (pour effectuer l'installation de NodeJS)
+  - npm install 
 
 
 * Équipe
