@@ -36,12 +36,12 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 
 # Nos solutions pour répondre au sujet 
 
-- Docker API et BDD replicas avec un communication entre instance via protocol ARP
-- Les API comm entre elle 
+- Conteneur docker avec API et BDD (deux instances) avec un communication entre instance via protocol ARP
+- Les API communique entre elle 
 - un container qui possède une table qui affiche toute les autres API
 - Site web hors docker hébergervia VERCEL
 
-Ici ce qui suit [Lien](https://github.com/legalito/asos/blob/main/secure.md "La sécurtité pour nos conteneurs").
+Ici ce qui suit [La sécurité des conteneurs](https://github.com/legalito/asos/blob/main/secure.md "La sécurtité pour nos conteneurs").
 
 # Pour lancer le Projet :  
 - Telecharger NodeJS si cela n'est pas deja fais pour pouvoir run le projet : https://nodejs.org/en/download/
