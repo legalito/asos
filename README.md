@@ -25,13 +25,6 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 
 -   En tant qu'administrateur d'une instance, Blacklister des instances concurrentes pour que leurs produits n'apparaissent pas même si notre instance y est indirectement liée. 
 
-# Récapitulatif
-
-Dans le principe, nous devions créer une boutique en ligne. En 48h, nous avons réussi à produire un début de site e-commerce. Certaines des fonctionnalités ne sont pas présentes.
-L'idée serait de pouvoir créer un compte client, un compte commerçant et un compte administrateur. L'administrateur pourrait gérer les rôles des utilisateurs en les changeant en commerçants. Un utilisateur commerçant pourrait ajouter des produits à sa boutique. Un utilisateur client pourrait ajouter des produits à son panier et passer une commande. Mais aussi un utilisateur pourrait passer une commande en tant qu'invité.
-
-Pour la patie docker, nous avons réussi à mettre en place un reverse proxy et un loadbalancing avec les fichiers de configurations. L'idée final serait à mettre en place une base de données pour chaque boutique.
-
 # Réflexions attendues pour nos B3
 ## Développement 
 - Comment assurer la performance du système malgré son aspectdistribué en réseau 
