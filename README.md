@@ -43,6 +43,15 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 
 Ici ce qui suit [La sécurité des conteneurs](https://github.com/legalito/asos/blob/main/secure.md "La sécurtité pour nos conteneurs").
 
+# Techno utilisé :
+
+  - NodeJS pour exécuter plusieurs requêtes vers le serveur simultanément
+     -React.js car c'est la meilleure bibliothèque qui facilite la mise en œuvre et l'itération du développement Web 
+     -Next.js  car c'est un framework minimaliste pour les applications React rendues par le serveur
+  - Vercel pour héberger le site 
+  - Postman pour ajouter des valeurs dans la base de données 
+  - DBeavercar cela permet de prendre en charge la connexion à plusieurs sources de données
+  
 # Pour lancer le Projet :  
 - Telecharger NodeJS si cela n'est pas deja fais pour pouvoir run le projet : https://nodejs.org/en/download/
 - Les commande a effectuer depuis votre éditeur de code source pour pouvoir lancer le projet :
