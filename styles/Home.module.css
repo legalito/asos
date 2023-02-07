@@ -4,12 +4,50 @@
 }
 .sectionOne{
   background-color: white;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
-  padding: 50px 0px;
 }
 .sectionOne > div{
-  padding: 4rem;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  padding: 2rem 4rem;
   border-radius: 20px;
   margin: 0px 20px;
+  
 }
+.sectionOne > div > h2{
+  color: #27352a;
+  padding: 3rem;
+}
+.articleList{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article > p{
+  color: #27352a;
+  font-size: 20px;
+  font-weight: 700;
+}
+.article > div{
+  height: 350px;
+  width: 200px;
+  overflow: hidden;
+  border-radius:20px ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.article > div > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+

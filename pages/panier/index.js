@@ -1,32 +1,62 @@
 import React, { Component } from 'react'
+import Navbar from '@/component/navbar/navbar'
 import styles from './panier.module.css'
+import Footer from '@/component/footer/footer'
+import Product from '@/component/productPanier/product'
 
-export class index extends Component {
-  render() {
+export default function panier() {
+  const articles = [
+    {
+      name: "Chaussure",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "Vêtements",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    }
+  ];
+  
     return (
+      <>
+        <Navbar />
+          <div className={styles.panier}>
+            <h1>Panier:</h1>
+            <div className={styles.articleList}>
+            {articles.map(article => (
+                    <Product
+                      key={article.id}
+                      img={article.img}
+                      name={article.name}
+                      price={article.price}
+                    />
+                  ))}
+                
+                </div>
+            <div className={styles.recap}>
+              <h2>Récapitulatif</h2>
+                <div className={styles.recapArticle}></div>
+                  <p>Article</p>
+                  <p>0€</p>
+                <div className={styles.totalPrice}>
+                  <p>Total</p>
+                  <p>0€</p>
+                </div>
 
-
-      <div className={ styles.containerPanier }>
-
-        <table className={ styles.table }>
-            <thead>
-                <tr><th></th><th>Article</th><th>Prix</th><th>Quantité</th><th>Total</th></tr>
-                <tr><th></th><th>Article</th><th>Prix</th><th>Quantité</th><th>Total</th></tr>
-            </thead>
-        </table>
-
-        <div className={ styles.toPay }>
-            <p>À payer : </p>
-        </div>
-
-
-        <button className={ styles.button }>Passer la commande</button>
-        
-      </div>
-
-
+                <div className={styles.btn}>
+                  <button>Valider le panier</button>
+                </div>
+              </div>
+          </div>
+        <div className={styles.Footer}><Footer /></div>
+      </>
     )
-  }
+  
 }
-
-export default index

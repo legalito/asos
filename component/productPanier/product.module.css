@@ -1,0 +1,38 @@
+.article{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+        align-items: center;
+        background-color: #fbfffc; 
+        border:solid #759d7d;;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+      }
+      .product{
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fbfffc;
+      
+      }
+      .articleImg{
+        width: 20vw;
+        height: 20vw;
+        background-color: blueviolet;
+      }
+    
+      .productDescription{
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fbfffc;
+        font-size: 2vw;
+      }
+     
