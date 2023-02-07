@@ -1,38 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#**Hexa-Héron**#
 
-## Getting Started
+##Bienvenue sur le site de Hexa-Héron,c'est un site de marketplace decentralisée , mettant en relation plusieur boutique sur cette meme plateforme.##
+Pour realise cette fameuse marketplace, on a:
 
-First, run the development server:
+  - Créer une API
+        qui sert a stocké les données des bases de données (store client)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  - Créer une base de données
+        qui sert a stocké les données des stores
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Mis en place une contenarisation avec docker
+        
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  - Mis en place un site web hébergée via vercel
+        pour faciliter la mise en ligne du site web et la creation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  - Mis en place un site web avec react
+        pars ce que ca "zpermet de creer des site web dynamique
+--------------------------------------------
+*On utilise :
+  - vercel // pour mettre en ligne le site web
+  - docker // pour contenariser
+  - Nest.js // pour la creation de l'api
+  - React // pour la creation du site web
+  - Css/html // pour la creation du site web 
+  - Mysql // pour la creation de la base de données
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+--------------------------------------------
+* On utilise aussi ces outils :
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  . Docker 
+        - Creation de contenaire 
+  . Vercel
+        - Creation de projet
+  . Mysql
+        - Creation de base de données
+  . Debeaver
+        - Connexion a la base de données
+  . Postman
+        - Test de l'api
 
-## Learn More
+--------------------------------------------
+* Backend/ Frontend
 
-To learn more about Next.js, take a look at the following resources:
+  . Home
+  . Inscription
+  . Connexion
+  . Panier
+  . Shop
+--------------------------------------------
+* Livrables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  . Mise du code source sur github
+  . Dépôt du projet sur Teams
+  . Mettre le PowerPoint dans Teams
+  . Mettre le rapport dans Teams
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+--------------------------------------------
+* Équipe
+  . Hugo LE GAL - B3 Dev
+  . Georgio SORIN - B3 Dev
+  . Nathy MELLAL - B3 Cybersec
+  . Mathis AUGEREAU - B2
+  . Abakar TIDJANI - B2 
+  . Noa DROUINEAU - B1
+  . Richard LESIEUR - B1
+ 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fonctionnalités
+[Fonctionnalité 1]
+[Fonctionnalité 2]
+[Fonctionnalité 3]
+Comment utiliser le site
+Accédez au site en tapant [URL du site] dans votre navigateur web.
+Explorez les différentes sections en utilisant le menu de navigation.
+Utilisez les fonctionnalités pour atteindre votre objectif.
