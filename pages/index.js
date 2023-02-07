@@ -5,8 +5,9 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
+  fetch("https://schema.getpostman.com/json/collection/v2.1.0/collection.json").then((response) =>{console.log(response.json())})
+
   const articles = [
     {
       name: "Chaussure",
@@ -55,7 +56,6 @@ export default function Home() {
                     />
                   ))}
                 </div>
-              
             </div>
           </div>
       </main>
