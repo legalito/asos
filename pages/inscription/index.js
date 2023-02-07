@@ -2,18 +2,34 @@ import React, { Component } from 'react'
 import styles from './inscription.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
+import axios from 'axios'
 
 
 
 export class index extends Component {
   render() {
+    function submit (e){
+      e.preventDefault();
+      console.log("test")
+      
+      axios.post('http://localhost:3000/user',{
+        pseudo:"michel",
+        password:"abionna",
+        mail:"anssna@gmail.com"
+      })
+      .then(response=> {
+        console.log(response.data);
+      })
+      .catch(error => { 
+        console.log(error);
+      }) 
+    }
     return (
       <>
       <div className={styles.containerLog}>
         <Navbar />
       <div className={styles.singupWrapper}>
         <h1>inscription</h1><div className={styles.loginWrapper}>
-        <form className={styles.form}>
             <label>
             <p>email</p>
             <input type="text" placeholder="email" />
@@ -31,10 +47,9 @@ export class index extends Component {
             <input type="text" placeholder= "confirm password" />
             </label>
             <div>
-            <button type="login">Login</button>
+            <button onClick={submit} type="login">Login</button>
             </div>
-        </form>
-        </div>
+        </div>  
       </div>
       </div>
       <Footer/>
