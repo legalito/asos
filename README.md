@@ -51,6 +51,7 @@ Ici ce qui suit [La sécurité des conteneurs](https://github.com/legalito/asos/
   - Vercel pour héberger le site 
   - Postman pour ajouter des valeurs dans la base de données 
   - DBeavercar cela permet de prendre en charge la connexion à plusieurs sources de données
+  - Docker effectue  le processus de développement et de test d'application multi-conteneurs
   
 # Pour lancer le Projet :  
 - Telecharger NodeJS si cela n'est pas deja fais pour pouvoir run le projet : https://nodejs.org/en/download/
