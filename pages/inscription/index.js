@@ -7,6 +7,7 @@ import axios from 'axios'
 
 
 export class index extends Component {
+  
   render() {
     function submit (e){
       e.preventDefault();
