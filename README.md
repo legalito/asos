@@ -60,6 +60,11 @@ Ici ce qui suit [La sécurité des conteneurs](https://github.com/legalito/asos/
   - 3 npm install next | (pour le rendu côté serveur et la génération de sites Web statiques)
   - 4 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react | (Pour l'ajout de composant pré fait sur le site)
 
+# Rendu Projet :
+
+  - Création d'une API :https://github.com/GsorinDev/asos-api.git
+  - Utilisable sur deux instance "fonctionnel"(il manque quelque implémentation) 
+  - Création de Base de données remplissable
 
 * Équipe
   . Hugo LE GAL - B3 Dev
