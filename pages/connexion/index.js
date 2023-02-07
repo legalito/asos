@@ -3,8 +3,7 @@ import styles from './connexion.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
 import axios from 'axios'
-export class index extends Component {
-  render() {
+export function index(){
     const [token, setToken] = useState('');
 
     function submit (e){
@@ -17,7 +16,7 @@ export class index extends Component {
       })
       .then(response=> {
         console.log(response.data);
-        saveToken(response.data); 
+        (response.data);
       })
       .catch(error => {
         console.log(error);
@@ -47,6 +46,5 @@ export class index extends Component {
       </>
     )
   }
-}
 
 export default index
