@@ -1,5 +1,5 @@
 .containerLog{
-    background-color: rgb(48, 47, 47);
+    background-color: white;
     height: 100vh;
     width: 100%;
 }
@@ -8,7 +8,7 @@
     margin-bottom: 3vw;
     text-align: center;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .form{
@@ -18,7 +18,7 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    color: rgb(227, 227, 227);
+    color: black;
     margin-bottom: 5vw;
 }
 
@@ -29,6 +29,6 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    color: rgb(123, 115, 115);
+    color: black;
     margin-bottom: 5vw;
 }
