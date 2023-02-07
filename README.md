@@ -46,7 +46,8 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 - Les commande a effectuer depuis votre éditeur de code source pour pouvoir lancer le projet :
   - git clone https://github.com/legalito/asos.git (Pour avoir le Projet sur son ordinateur)
   - npm i ou npm install (pour effectuer l'installation de NodeJS)
-  - npm install 
+  - npm install next (pour le rendu côté serveur et la génération de sites Web statiques)
+  - npm install @mui/icons-material @mui/material @emotion/styled @emotion/react (Pour l'ajout de composant pré fait sur le site)
 
 
 * Équipe
