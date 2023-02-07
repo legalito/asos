@@ -5,9 +5,7 @@ import Footer from '@/component/footer/footer'
 import axios from 'axios'
 
 
-
 export class index extends Component {
-  
   render() {
     function submit (e){
       e.preventDefault();
@@ -25,37 +23,32 @@ export class index extends Component {
       }) 
     }
     return (
-      <>
-      <div className={styles.containerLog}>
-        <Navbar />
-      <div className={styles.singupWrapper}>
-        <h1>inscription</h1><div className={styles.loginWrapper}>
-            <label>
-            <p>email</p>
-            <input type="text" placeholder="email" />
-            </label>
-            <label>
-            <p>Username</p>
-            <input type="text" placeholder="username" />
-            </label>
-            <label>
-            <p>Password</p>
-            <input type="text" placeholder="username" />
-            </label>
-            <label>
-            <p>Confirm Password</p>
-            <input type="text" placeholder= "confirm password" />
-            </label>
-            <div>
-            <button onClick={submit} type="login">Login</button>
+          <>
+          <div className={styles.containerLog}>
+            <Navbar />
+            <div className={styles.signUpWrapper}>
+                <h1>Inscription</h1><div className={styles.loginWrapper}>
+                <form className={styles.form}>
+                  <label className={styles.label1}><p>Email</p></label>
+                  <input type="email" placeholder="email" />
+                  <label className={styles.label}><p>Username</p></label>
+                  <input type="text" placeholder="username" />
+                  <label className={styles.label}><p>Password</p></label>
+                  <input type="password" placeholder="password" />
+                  <label className={styles.label}><p>Confirm Password</p></label>
+                  <input type="password" placeholder="password" />
+                  <div>
+                    <button className={styles.label}type="submit">Inscription</button>
+                  </div>
+    
+                </form>
+                </div>
             </div>
-        </div>  
-      </div>
-      </div>
-      <Footer/>
-      </>
-    )
-  }
-}
-
-export default index
+          </div>
+        <Footer/>
+        </>
+      )
+      }
+    }
+    
+    export default index
