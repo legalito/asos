@@ -9,22 +9,10 @@ export default function Home() {
 
   const articles = [
     {
-      name: "Chaussure",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "Vêtements",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
+      name:"ui",
+      link:"ui"
     }
-  ];
+  ]
   const Article = ({name, Link }) => (
     <div className={styles.article}>
       <p>{name}</p>
@@ -32,6 +20,7 @@ export default function Home() {
         <img src={Link}/>
       </div>
     </div>
+
   );
   return (
     <>
