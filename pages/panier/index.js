@@ -28,7 +28,7 @@ export default function panier() {
       <>
         <Navbar />
           <div className={styles.panier}>
-            <h1>Panier:</h1>
+           <div className={styles.title}> <h1>Panier:</h1></div>
             <div className={styles.articleList}>
             {articles.map(article => (
                     <Product
@@ -36,8 +36,9 @@ export default function panier() {
                       img={article.img}
                       name={article.name}
                       price={article.price}
-                    />
-                  ))}
+                    /> 
+                  ))
+                 }
                 
                 </div>
             <div className={styles.recap}>
@@ -49,7 +50,6 @@ export default function panier() {
                   <p>Total</p>
                   <p>0€</p>
                 </div>
-
                 <div className={styles.btn}>
                   <button>Valider le panier</button>
                 </div>
