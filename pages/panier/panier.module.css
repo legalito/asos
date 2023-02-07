@@ -3,38 +3,10 @@
     color: black;
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 100%;
   }
-  .article{
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fbfffc;
-  }
-  .product{
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fbfffc;
-  }
-  .articleImg{
-    width: 20vw;
-    height: 20vw;
-    background-color: blueviolet;
-  }
-
-  .productDescription{
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fbfffc;
-  }
- 
+  
   .recap{
     width: 20vw;
     display: flex;
@@ -42,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #759d7d;
+    font-size: 2vw;
   }
 
 
@@ -50,4 +23,14 @@
 position: relative;;
 bottom: 0;
 width: 100%;
+}
+.articleList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+    margin-bottom: 5vw;
 }
