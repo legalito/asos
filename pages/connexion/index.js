@@ -1,30 +1,30 @@
 import React, { Component } from 'react'
 import styles from './connexion.module.css'
 import Navbar from '@/component/navbar/navbar'
-import footer from '@/component/footer/footer'
+import Footer from '@/component/footer/footer'
 export class index extends Component {
   render() {
     return (
       <>
       <div className={styles.containerLog}>
+        <Navbar/>
       <div className={styles.loginWrapper}>
-        <h1>Please Log In</h1>
+        <h1>connexion</h1>
         <form className={styles.form}>
-            <label>
-            <p>Username</p>
-            <input type="text" />
-            </label>
-            <label>
-            <p>Password</p>
-            <input type="password" />
-            </label>
+            <label className={styles.label}><p>Username</p></label>
+            <input type="text" placeholder="username" />
+            <label className={styles.label}><p>Password</p></label>
+            <input type="password" placeholder="password" />
             <div>
-            <button type="submit">Submit</button>
+              <button type="submit">Submit</button>
             </div>
         </form>
         </div>
+       
       </div>
-        
+        <div className={styles.footer}>
+          <Footer/>
+        </div>
       </>
     )
   }
