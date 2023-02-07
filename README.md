@@ -43,7 +43,7 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 
 Ici ce qui suit [La sécurité des conteneurs](https://github.com/legalito/asos/blob/main/secure.md "La sécurtité pour nos conteneurs").
 
-# Techno utilisé :
+# Techno utilisée :
 
   - NodeJS pour exécuter plusieurs requêtes vers le serveur simultanément
      -React.js car c'est la meilleure bibliothèque qui facilite la mise en œuvre et l'itération du développement Web 
