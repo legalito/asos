@@ -16,10 +16,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 100%;
     width: 100%;
     color: black;
     margin-bottom: 5vw;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: auto;
 }
 
 .loginWrapper{
@@ -31,4 +37,8 @@
     width: 100%;
     color: black;
     margin-bottom: 5vw;
+}
+
+.label {
+    margin-top: 10px;
 }

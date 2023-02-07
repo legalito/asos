@@ -6,24 +6,23 @@
     height: 100%;
     width: 100%;
   }
-  
-  .recap{
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #759d7d;
-    font-size: 2vw;
-  }
 
-
+.recap{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #759d7d;
+  font-size: 2vw;
+}
 
 .Footer{
 position: relative;;
 bottom: 0;
 width: 100%;
 }
+
 .articleList{
     display: flex;
     flex-direction: column;
@@ -34,4 +33,3 @@ width: 100%;
     color: black;
     margin-bottom: 5vw;
 }
-  

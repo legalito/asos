@@ -6,24 +6,25 @@ export class index extends Component {
   render() {
     return (
       <>
-        <div className={styles.containerLog}>
-          <Navbar/>
+      <div className={styles.containerLog}>
+        <Navbar/>
         <div className={styles.loginWrapper}>
-          <h1>Please Log In</h1>
+          <h1>Connexion</h1>
           <form className={styles.form}>
-              <label className={styles.label}><p>Username</p></label>
+              <label className={styles.label1}><p>Username</p></label>
               <input type="text" placeholder="username" />
               <label className={styles.label}><p>Password</p></label>
               <input type="password" placeholder="password" />
               <div>
-                <button type="submit">Submit</button>
+                <button className={styles.label}type="submit">Connexion</button>
               </div>
           </form>
           </div>
+       
         </div>
           <div className={styles.footer}>
-            <Footer/>
-          </div>
+          <Footer/>
+        </div>
       </>
     )
   }
