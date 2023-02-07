@@ -1,6 +1,6 @@
-#**Hexa-Héron**
+**Hexa-Héron**
 
-##Bienvenue sur le site de Hexa-Héron,c'est un site de marketplace decentralisée , mettant en relation plusieur boutique sur cette meme plateforme.
+Bienvenue sur le site de Hexa-Héron,c'est un site de marketplace decentralisée , mettant en relation plusieur boutique sur cette meme plateforme.
 Pour realise cette fameuse marketplace, on a:
 
   - Créer une API
@@ -65,37 +65,4 @@ Pour realise cette fameuse marketplace, on a:
   . Abakar TIDJANI - B2 
   . Noa DROUINEAU - B1
   . Richard LESIEUR - B1
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fonctionnalités
-[Fonctionnalité 1]
-[Fonctionnalité 2]
-[Fonctionnalité 3]
-Comment utiliser le site
-Accédez au site en tapant [URL du site] dans votre navigateur web.
-Explorez les différentes sections en utilisant le menu de navigation.
-Utilisez les fonctionnalités pour atteindre votre objectif.
