@@ -4,8 +4,26 @@ import styles from './shop.module.css'
 import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
 
-export class index extends Component {
-  render() {
+export default function index()  {
+  const articles = [
+    {
+      name: "Chaussure",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "Vêtements",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    }
+  ];
+  
     return (
       
       <div className={styles.content}>
@@ -31,7 +49,5 @@ export class index extends Component {
         <Footer/>
       </div>
     )
-  }
+  
 }
-
-export default index

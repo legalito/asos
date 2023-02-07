@@ -4,8 +4,26 @@ import styles from './panier.module.css'
 import Footer from '@/component/footer/footer'
 import Product from '@/component/productPanier/product'
 
-export class panier extends Component {
-  render() {
+export default function panier() {
+  const articles = [
+    {
+      name: "Chaussure",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "Vêtements",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    },
+    {
+      name: "bijoux",
+      Link:"./sneakers.jpg"
+    }
+  ];
+  
     return (
       <>
         <Navbar />
@@ -40,6 +58,5 @@ export class panier extends Component {
         <div className={styles.Footer}><Footer /></div>
       </>
     )
-  }
+  
 }
-export default panier
