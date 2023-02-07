@@ -21,6 +21,9 @@ position: flex;
 margin-left : 5%;
 margin-top : 5%;
 }
+.title2{
+    font-size: 1.5em;
+}
 .box
 {
 position :fixed;
