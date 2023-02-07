@@ -6,26 +6,13 @@ import Navbar from '@/component/navbar/navbar'
 import Footer from '@/component/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
-  fetch("https://schema.getpostman.com/json/collection/v2.1.0/collection.json").then((response) =>{console.log(response.json())})
 
   const articles = [
     {
-      name: "Chaussure",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "Vêtements",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
+      name:"ui",
+      link:"ui"
     }
-  ];
+  ]
   const Article = ({name, Link }) => (
     <div className={styles.article}>
       <p>{name}</p>
@@ -33,6 +20,7 @@ export default function Home() {
         <img src={Link}/>
       </div>
     </div>
+
   );
   return (
     <>
