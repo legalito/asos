@@ -2,9 +2,9 @@
 
 Tout d’abord, il est important de mettre en place des mesures de sécurité pour plusieurs grandes raisons :
 Protection des données : en protégeant votre système contre les attaques de pirates informatiques, vous pouvez éviter la fuite ou la destruction de données sensibles et confidentielles.
-Continuité des activités : en veillant à la sécurité de votre système, vous pouvez minimiser les perturbations et les interruptions de votre activité, ce qui peut améliorer la productivité et la rentabilité.
-Conformité réglementaire : certaines industries sont soumises à des réglementations strictes en matière de cybersécurité, telles que les secteurs bancaire et de la santé. En veillant à la cybersécurité de votre système, vous pouvez vous conformer à ces réglementations et éviter les sanctions et les amendes.
-Protéger la réputation : une violation de la sécurité de votre système peut avoir des conséquences négatives sur votre réputation auprès de vos clients, partenaires et employés. En veillant à la cybersécurité, vous pouvez minimiser les risques pour votre réputation.
+**Continuité des activités **: en veillant à la sécurité de votre système, vous pouvez minimiser les perturbations et les interruptions de votre activité, ce qui peut améliorer la productivité et la rentabilité.
+**Conformité réglementaire** : certaines industries sont soumises à des réglementations strictes en matière de cybersécurité, telles que les secteurs bancaire et de la santé. En veillant à la cybersécurité de votre système, vous pouvez vous conformer à ces réglementations et éviter les sanctions et les amendes.
+**Protéger la réputation** : une violation de la sécurité de votre système peut avoir des conséquences négatives sur votre réputation auprès de vos clients, partenaires et employés. En veillant à la cybersécurité, vous pouvez minimiser les risques pour votre réputation.
 En somme, la cybersécurité est cruciale pour protéger les données, les activités, la conformité réglementaire et la réputation de votre entreprise.
 Cela s’inscrit donc bien dans notre projet de marketplace décentraliser 
 
