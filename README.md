@@ -1,38 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  CHALLENGE 48H - Boutique en ligne décentralisée
 
-## Getting Started
+---
 
-First, run the development server:
+##  Présentation du projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+En 48 heures chrono, faire un Proof of Concept de boutique en ligne décentralisée permettant aux petits et moyens commerçants de se libérer des gros marketplaces centralisés.
+Le réseau de petits commerçants sera réparti comme suit :
+- Un réseau de serveurs (appelés "instances") servant chacun leurs propresproduits ainsi que les produits des autres serveurs auxquels ils sontconnectés, sans entité centrale
+- Chaque serveur peut accueillir plusieurs commerçants différents
+- Via la recherche sur une seule de ces instances, on peut trouver lesproduits de toutes les autres instances connues de celle-ci, y compris lesproduits proposés par leurs propres instances connues, et ainsi de suite.
+- Les clients naux créent un compte utilisateur sur une seule de cesinstances et peuventacheter des produits provenant de leur instance de manière classiquepasser commande chez les commerçants des autres instances depuisla leur; le paiement aura lieu sur l'autre instance mais une nouvelleinscription ne sera pas nécessaire.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Fonctionnalités attendues
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-   Affichage du site et base de données (à vous de décider des données à enregistrer et présenter en vous inspirant des marketplace existants!) 
+-   Création de comptes commerçants et clients 
+-   Ajout d'instances connectées, présentation des produits des instances concernées et de ses pairs connus. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+##  Fonctionnalités souhaitées :
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   Passer une commande en tant qu'invité sur une autre instance (pas de paiement à mettre en place). 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+_(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et lors de la commande choisir un mode invité)._
 
-## Learn More
+-   En tant qu'administrateur d'une instance, Blacklister des instances concurrentes pour que leurs produits n'apparaissent pas même si notre instance y est indirectement liée. 
 
-To learn more about Next.js, take a look at the following resources:
+# Réflexions attendues pour nos B3
+## Développement 
+- Comment assurer la performance du système malgré son aspectdistribué en réseau 
+- Quelle architecture mettre en place pour permettre la symétrie desinstances les unes par rapport aux autres sans gouvernance centralisée ?
+## Cybersécurité 
+- Comment sécuriser les nombreuses communications nécessaires 
+- Quel protocole utiliser ? Comment authentier les instances les unes par rapport aux autrespour éviter les attaques de type Man in the middle et les usurpations ?
+- Comment authentier les utilisateurs d'une instance lorsqu'ilscommandent un produit provenant d'une autre instance ?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Nos solutions pour répondre au sujet 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Docker API et BDD replicas avec un communication entre instance via protocol ARP
+- Les API comm entre elle 
+- un container qui possède une table qui affiche toute les autres API
+- Site web hors docker hébergervia VERCEL
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+* Équipe
+  . Hugo LE GAL - B3 Dev
+  . Georgio SORIN - B3 Dev
+  . Nathy MELLAL - B3 Cybersec
+  . Mathis AUGEREAU - B2
+  . Abakar TIDJANI - B2 
+  . Noa DROUINEAU - B1
+  . Richard LESIEUR - B1
+
+
+_Nantes YNOV Campus - Challenge48H - 2022/2023_
