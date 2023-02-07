@@ -41,6 +41,8 @@ _(L'idée serait qu'un utilisateur puisse ajouter un produit dans son panier et 
 - un container qui possède une table qui affiche toute les autres API
 - Site web hors docker hébergervia VERCEL
 
+Ici ce qui suit [Lien](https://github.com/legalito/asos/blob/main/secure.md "La sécurtité pour nos conteneurs").
+
 # Pour lancer le Projet :  
 - Telecharger NodeJS si cela n'est pas deja fais pour pouvoir run le projet : https://nodejs.org/en/download/
 - Les commande a effectuer depuis votre éditeur de code source pour pouvoir lancer le projet :
