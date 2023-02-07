@@ -8,8 +8,10 @@ export class panier extends Component {
       <div>
         <Navbar />
         <div>
-          <h1>panier</h1>
-        
+          <div className={styles.title}><h1>panier</h1></div>
+          <div className={styles.trait_dessus}>
+          <p>article</p></div>
+          <div className={styles.trait_dessous}></div>
         </div>
       </div>
     )
