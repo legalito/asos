@@ -8,19 +8,23 @@ export default function panier() {
   const articles = [
     {
       name: "Chaussure",
-      Link:"./sneakers.jpg"
+      Link:"./sneakers.jpg",
+      price:"130"
     },
     {
-      name: "Vêtements",
-      Link:"./sneakers.jpg"
+      name: "T-shirt",
+      Link:"./sneakers.jpg",
+      price:"50"
+    },
+    {
+      name: "lunettes",
+      Link:"./sneakers.jpg",
+      price:"180"
     },
     {
       name: "bijoux",
-      Link:"./sneakers.jpg"
-    },
-    {
-      name: "bijoux",
-      Link:"./sneakers.jpg"
+      Link:"./sneakers.jpg",
+      price:"10"
     }
   ];
   
@@ -45,10 +49,10 @@ export default function panier() {
               <h2>Récapitulatif</h2>
                 <div className={styles.recapArticle}></div>
                   <p>Article</p>
-                  <p>0€</p>
+                  <p>4</p>
                 <div className={styles.totalPrice}>
                   <p>Total</p>
-                  <p>0€</p>
+                  <p>370€</p>
                 </div>
                 <div className={styles.btn}>
                   <button>Valider le panier</button>
